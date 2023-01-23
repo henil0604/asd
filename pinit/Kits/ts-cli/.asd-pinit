@@ -1,0 +1,13 @@
+{
+    "variables": {
+        "PROJECT_NAME": {
+            "message": "What should be the name of the project?",
+            "default": "my-cli-app"
+        },
+        "PROJECT_DESCRIPTION": {
+            "message": "What should be the description of the project?",
+            "default": ""
+        }
+    },
+    "askForNpmInstall": true
+}

@@ -1,0 +1,33 @@
+{
+  "name": "asd-enc",
+  "version": "0.0.1",
+  "description": "File and String Encrypter",
+  "type": "module",
+  "main": "lib/index.js",
+  "scripts": {
+    "dev": "tsc -w -p tsconfig.json",
+    "build": "tsc -p tsconfig.json",
+    "test:dev": "nodemon lib/index.js",
+    "test:manual": "nodemon --ignore * lib/index.js",
+    "prepare": "npm run build"
+  },
+  "bin": {
+    "asd-enc": "./lib/index.js"
+  },
+  "dependencies": {
+    "@helper-modules/log": "^1.0.0",
+    "crypto-js": "^4.1.1",
+    "filic": "^2.2.3",
+    "inquirer": "^9.1.4",
+    "inquirer-file-tree-selection-prompt": "^2.0.5",
+    "yargs": "^17.6.2"
+  },
+  "devDependencies": {
+    "@types/crypto-js": "^4.1.1",
+    "@types/inquirer": "^9.0.3",
+    "@types/node": "^18.11.18",
+    "@types/yargs": "^17.0.19",
+    "nodemon": "^2.0.20",
+    "typescript": "^4.9.4"
+  }
+}
