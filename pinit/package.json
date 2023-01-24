@@ -26,5 +26,13 @@
     "@types/yargs": "^17.0.19",
     "nodemon": "^2.0.20",
     "typescript": "^4.9.4"
-  }
+  },
+  "homepage": "https://github.com/henil0604/asd/tree/main/pinit#readme",
+  "license": "ISC",
+  "author": "Henil Malaviya <henilmalaviya06@gmail.com>",
+  "keywords": [
+    "init",
+    "create-project",
+    "create-app"
+  ]
 }
